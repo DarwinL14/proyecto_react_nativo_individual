@@ -13,6 +13,7 @@ const Home = () => {
 
   const [refreshing, setRefreshing] = useState(false);
 
+  
   const onRefresh = async () => {
     setRefreshing(true);
     await refetch();
